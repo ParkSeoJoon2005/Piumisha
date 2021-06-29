@@ -52,7 +52,7 @@ async def lycia(client, message):
         result = result.replace("Aco", "Lycia")
         result = result.replace("Eliza", "@Lyciachatbot")
         result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
-        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
+        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @iAmLiKu1")
         result = result.replace("Have the control right.", "My Father Is @madepranav")
         result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
         result = result.replace("<a href=\\", "<a href =")
@@ -117,7 +117,7 @@ async def lycia(client, message):
         result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
         result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
         result = result.replace("Have the control right.", "My Father Is @madepranav")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
+        result = result.replace("I was created by Lyciabot Team.", "I was created by Howl Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
