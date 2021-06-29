@@ -49,8 +49,8 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "⚡Ａｓｈ⚡")
-        result = result.replace("Eliza", "⚡Ａｓｈ⚡")
+        result = result.replace("Aco", "Ａｓｈ")
+        result = result.replace("Eliza", "Ａｓｈ")
         result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ the great Pokémon master")
         result = result.replace("My dear great botmaster, Howl Team.", "Made By @iAmLiKu1")
         result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
@@ -112,8 +112,8 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "⚡Ａｓｈ⚡")
-        result = result.replace("Eliza", "⚡Ａｓｈ⚡")
+        result = result.replace("Aco", "Ａｓｈ")
+        result = result.replace("Eliza", "Ａｓｈ")
         result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ name tho suna hi hoga")
         result = result.replace("My dear great botmaster, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
         result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
@@ -185,8 +185,8 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", ⚡Ａｓｈ⚡"")
-    result = result.replace("Eliza", "⚡Ａｓｈ⚡")
+    result = result.replace("Aco", Ａｓｈ"")
+    result = result.replace("Eliza", "Ａｓｈ")
     result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ the great Pokémon master")
     result = result.replace("My dear great botmaster, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
     result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
@@ -264,8 +264,8 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "⚡Ａｓｈ⚡")
-    result = result.replace("Eliza", "⚡Ａｓｈ⚡")
+    result = result.replace("Aco", "Ａｓｈ")
+    result = result.replace("Eliza", "Ａｓｈ")
     result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡")
     result = result.replace("My dear great botmaster, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
     result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
