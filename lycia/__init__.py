@@ -1,4 +1,4 @@
-from lycia.config import Config
+from config import Config
 from pyrogram import Client
 
 API_ID = Config.API_ID
