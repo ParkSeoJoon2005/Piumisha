@@ -111,7 +111,7 @@ async def lycia(client, message):
         response = requests.request("GET", url, headers=headers, params=querystring)
         result = response.text
         result = result.replace('{"cnt":"', "")
-        result = result.replace('"}', "⚡Ａｓｈ⚡")
+        result = result.replace('"}', "")
         result = result.replace("Aco", "⚡Ａｓｈ⚡")
         result = result.replace("Eliza", "⚡Ａｓｈ⚡")
         result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ name tho suna hi hoga")
