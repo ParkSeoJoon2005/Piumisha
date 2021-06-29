@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 LYCIA_START = """
-Hello, I am ⚡Ａｓｈ⚡, An Intelligent ChatBot by @iAmLiKu1.If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
+Hello, I am ⚡Ａｓｈ⚡, Its me Pokémon master & also An Intelligent ChatBot by @iAmLiKu1.If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
 """
 
 
