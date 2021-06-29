@@ -55,7 +55,7 @@ async def inline_query_handler(client, query):
    
 
 async def lyciachatbot(answers, text):
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=@Lyciachatbot&ownername=@madepranav"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=@Lyciachatbot&ownername=⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡"
     result = await fetch(URL)
     buttons = InlineKeyboard(row_width=1)
     buttons.add(InlineKeyboardButton(
