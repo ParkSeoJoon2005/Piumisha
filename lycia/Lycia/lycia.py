@@ -1,24 +1,27 @@
 import asyncio
-import aiohttp
-import emoji
-import requests
 import re
-from lycia import LYCIA
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from config import bot_token, owner_id, bot_id, ARQ_API_BASE_URL as ARQ_API
 from pyrogram import Client, filters
-from google_trans_new import google_translator
-url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
+from Python_ARQ import ARQ
 
-translator = google_translator()
+luna = Client(
+    ":memory:",
+    bot_token=1582636407:AAGuKzkSdzblLiJKqfPbJ9tFeGQKPi7h_PM,
+    api_id=2443183,
+    api_hash="66b6799e1b784aff78bad680cd8362db",
+)
 
-BOT_ID = 1688991183
+arq = ARQ(ARQ_API)
 
-def extract_emojis(s):
-    return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
+blacklisted = []
+mode = None
 
-#Chatbot Modules By  @InukaAsith
 
-en_chats = []
+async def getresp(query):
+    luna = await arq.luna(query)
+    response = luna.response
+    return response
+
 
 @LYCIA.on_message(
     filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
