@@ -4,7 +4,7 @@ from config import bot_token, owner_id, bot_id, ARQ_API_BASE_URL as ARQ_API
 from pyrogram import Client, filters
 from Python_ARQ import ARQ
 
-luna = Client(
+lycia = Client(
     ":memory:",
     bot_token=1582636407:AAGuKzkSdzblLiJKqfPbJ9tFeGQKPi7h_PM,
     api_id=2443183,
