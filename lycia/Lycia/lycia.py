@@ -18,8 +18,8 @@ mode = None
 
 
 async def getresp(query):
-    luna = await arq.luna(query)
-    response = luna.response
+    lycia = await arq.luna(query)
+    response = lycia.response
     return response
 
 
