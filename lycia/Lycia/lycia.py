@@ -18,7 +18,7 @@ mode = None
 
 
 async def getresp(query):
-    lycia = await arq.luna(query)
+    lycia = await arq.lycia(query)
     response = lycia.response
     return response
 
