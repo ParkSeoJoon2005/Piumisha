@@ -11,6 +11,6 @@ pykeyboard
 psycopg2
 psycopg2-binary
 requests
-google_trans_new
+gpytranslate
 emoji
 Python_ARQ
