@@ -6,10 +6,10 @@ import re
 from lycia import LYCIA
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters
-from google_trans_new import google_translator
+from gpytranslate import Translator
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
-translator = google_translator()
+translator = Translator()
 
 BOT_ID = 1688991183
 
