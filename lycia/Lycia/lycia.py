@@ -1,24 +1,4 @@
-import asyncio
-import re
-from aiohttp import ClientSession
-from config import bot_token, owner_id, bot_id, ARQ_API_BASE_URL as ARQ_API
-from pyrogram import Client, filters
-from Python_ARQ import ARQ
 
-luna = Client(
-    ":memory:",
-    bot_token="1582636407:AAGuKzkSdzblLiJKqfPbJ9tFeGQKPi7h_PM",
-    api_id="2443183",
-    api_hash="66b6799e1b784aff78bad680cd8362db",
-)
-bot_id = int(bot_token.split(":")[0])
-aiohttp_session = ClientSession()
-arq = ARQ(ARQ_API_BASE_URL, ARQ_API_KEY, aiohttp_session)
-
-async def getresp(query):
-    luna = await arq.luna(query)
-    response = luna.response
-    return response
 
 
 @LYCIA.on_message(
