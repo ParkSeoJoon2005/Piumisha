@@ -1,5 +1,24 @@
+import asyncio
+import aiohttp
+import emoji
+import requests
+import re
+from lycia import LYCIA
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters
+from google_trans_new import google_translator
+url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
+translator = google_translator()
 
+BOT_ID = 1688991183
+
+def extract_emojis(s):
+    return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
+
+#Chatbot Modules By  @InukaAsith
+
+en_chats = []
 
 @LYCIA.on_message(
     filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
