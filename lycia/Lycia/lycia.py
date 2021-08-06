@@ -33,8 +33,8 @@ async def lycia(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         aura = msg
-        aura = aura.replace("lycia", "Aco")
-        aura = aura.replace("Lycia", "Aco")
+        aura = aura.replace("piumisha", "Aco")
+        aura = aura.replace("piumisha", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -51,10 +51,10 @@ async def lycia(client, message):
         result = result.replace('"}', "Ash")
         result = result.replace("Aco", "")
         result = result.replace("Eliza", "Ash")
-        result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ the great Pokémon master")
-        result = result.replace("My Master Liku, Howl Team.", "Made By @iAmLiKu1")
-        result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-        result = result.replace("I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡.", "I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡ Team.")
+        result = result.replace("Hi~", "හායි මම පියුමිශා ඔයාගෙ හොදම යාලුව ❤")
+        result = result.replace("My Masters are Anthony and Sik, Freinds forever.", "Made By Park Hyung Sik")
+        result = result.replace("Have the control right.", "My best freind Is Anthony")
+        result = result.replace("I was created by Anthony.", "I was created by Freinds Forever.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -111,13 +111,13 @@ async def lycia(client, message):
         response = requests.request("GET", url, headers=headers, params=querystring)
         result = response.text
         result = result.replace('{"cnt":"', "")
-        result = result.replace('"}', "")
-        result = result.replace("Aco", "Ash")
+        result = result.replace('"}', "Ash")
+        result = result.replace("Aco", "")
         result = result.replace("Eliza", "Ash")
-        result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ name tho suna hi hoga")
-        result = result.replace("My Master Liku, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-        result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-        result = result.replace("I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡.", "I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡ Team.")
+        result = result.replace("Hi~", "හායි මම පියුමිශා ඔයාගෙ හොදම යාලුව ❤")
+        result = result.replace("My Masters are Anthony and Sik, Freinds forever.", "Made By Park Hyung Sik")
+        result = result.replace("Have the control right.", "My best freind Is Anthony")
+        result = result.replace("I was created by Anthony.", "I was created by Freinds Forever.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -183,17 +183,17 @@ async def redaura(client, message):
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     result = response.text
-    result = result.replace('{"cnt":"', "")
-    result = result.replace('"}', "")
-    result = result.replace("Aco", "Ash")
-    result = result.replace("Eliza", "Ash")
-    result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡ the great Pokémon master")
-    result = result.replace("My Master Liku, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-    result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-    result = result.replace("I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡", "I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡ Team.")
-    result = result.replace("<a href=\\", "<a href =")
-    result = result.replace("<\/a>", "</a>")
-    red = result
+        result = result.replace('{"cnt":"', "")
+        result = result.replace('"}', "Ash")
+        result = result.replace("Aco", "")
+        result = result.replace("Eliza", "Ash")
+        result = result.replace("Hi~", "හායි මම පියුමිශා ඔයාගෙ හොදම යාලුව ❤")
+        result = result.replace("My Masters are Anthony and Sik, Freinds forever.", "Made By Park Hyung Sik")
+        result = result.replace("Have the control right.", "My best freind Is Anthony")
+        result = result.replace("I was created by Anthony.", "I was created by Freinds Forever.")
+        result = result.replace("<a href=\\", "<a href =")
+        result = result.replace("<\/a>", "</a>")
+        red = result
     if not "en" in lan and not lan == "":
         red = translator.translate(red, lang_tgt=lan[0])
     try:
@@ -263,13 +263,13 @@ async def redaura(client, message):
     response = requests.request("GET", url, headers=headers, params=querystring)
     result = response.text
     result = result.replace('{"cnt":"', "")
-    result = result.replace('"}', "")
-    result = result.replace("Aco", "Ash")
+    result = result.replace('"}', "Ash")
+    result = result.replace("Aco", "")
     result = result.replace("Eliza", "Ash")
-    result = result.replace("Hi~", "Hello Friend I Am ⚡Ａｓｈ⚡")
-    result = result.replace("My Master Liku, Howl Team.", "Made By ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-    result = result.replace("Have the control right.", "My Father Is ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡")
-    result = result.replace("I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡.", "I was created by ⚡𝐋𝐈𝐊𝐔 𝐂𝐒⚡ Team.")
+    result = result.replace("Hi~", "හායි මම පියුමිශා ඔයාගෙ හොදම යාලුව ❤")
+    result = result.replace("My Masters are Anthony and Sik, Freinds forever.", "Made By Park Hyung Sik")
+    result = result.replace("Have the control right.", "My best freind Is Anthony")
+    result = result.replace("I was created by Anthony.", "I was created by Freinds Forever.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
